@@ -21,13 +21,11 @@ export interface AppState {
   language:LANGUAGE_ENUM
 }
 const defLanguage: LANGUAGE_ENUM =
-  localStorage.getItem(LANG_LOCAL_KEY) === LANGUAGE_ENUM.zh_CN
-    ? LANGUAGE_ENUM.zh_CN
-    : LANGUAGE_ENUM.en_US;
+  localStorage.getItem(LANG_LOCAL_KEY) as LANGUAGE_ENUM || LANGUAGE_ENUM.en_US
 
 const initialState: AppState = {
   themeMode: "light",
-  language:LANGUAGE_ENUM.en_US
+  language:defLanguage
 };
 
 export const AppSlice = createSlice({
