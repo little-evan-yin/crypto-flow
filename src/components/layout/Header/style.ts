@@ -72,7 +72,7 @@ export const Header = styled.div`
       display: flex;
       align-items: center;
 
-      & > a {
+      &>a, &>span {
         font-weight: 400;
         font-size: 17px;
         line-height: 24px;
