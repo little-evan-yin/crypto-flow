@@ -17,6 +17,7 @@ interface ILink{
 
 interface ILinkMenu{
   title:string
+  link:string
   children:ILink[]
 }
 const THeader: FC<{}> = () => {
@@ -119,6 +120,7 @@ function LinkList(){
   const links:ILinkMenu[] = [
     {
       title: t("About US"),
+      link:"/about-us",
       children:[
         {
           title:t("Vision, Mission and Values"),
@@ -136,6 +138,7 @@ function LinkList(){
     },
     {
       title:t("Investor Relations"),
+      link:"/investor-relations",
       children:[
         {
           title:t("Announcements"),
@@ -165,6 +168,7 @@ function LinkList(){
     },
     {
       title:t("Our Business"),
+      link:"/our-business",
       children:[
         {
           title:t("Blockchain application R & D services"),
@@ -186,7 +190,7 @@ function LinkList(){
             links.map((item,index)=>(
               <div className="link-item" key={index}>
                 <div className="link-item-txt">
-                <span>{item.title}</span>
+                <a href={item.link}>{item.title}</a>
                 <img src={Arrowsvg} alt="" />
                 </div>
                 <div className="link-item-menu">

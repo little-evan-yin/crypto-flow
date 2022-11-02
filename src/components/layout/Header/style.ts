@@ -72,12 +72,13 @@ export const Header = styled.div`
       display: flex;
       align-items: center;
 
-      & > span {
+      & > a {
         font-weight: 400;
         font-size: 17px;
         line-height: 24px;
         color: #FFFFFF;
         cursor: pointer;
+        text-decoration: none;
       }
 
       & > img {
