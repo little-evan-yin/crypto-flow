@@ -1,6 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { LANGUAGE_ENUM } from "store/app";
+// import { LANGUAGE_ENUM } from "store/app";
 import en_US from "./en_US.json";
 import zh_CN from "./zh_CN.json";
 import zh_HK from "./zh_HK.json";
@@ -25,7 +25,7 @@ export const languageConfig = {
 
 i18n.use(initReactI18next).init({
   resources: languageConfig,
-  lng: localStorage.getItem(LANG_LOCAL_KEY) || LANGUAGE_ENUM.en_US,
+  lng: localStorage.getItem(LANG_LOCAL_KEY) || "en_US",
   interpolation: {
     escapeValue: false,
     prefix: "{",

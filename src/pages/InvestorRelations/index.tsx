@@ -116,7 +116,7 @@ export default function InvestorRelations() {
   const filterUrl = (url:string) => {
     // change to local static file
     // return url
-    const newUrl = url.replace('www.lotoie.com', '18.136.101.231');
+    const newUrl = url.replace('www.lotoie.com', process.env.REACT_APP_SERVER_NAME);
     console.log(newUrl)
 
     return newUrl

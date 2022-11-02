@@ -65,7 +65,7 @@ const FooterView = styled.div`
 export default function Footer() {
   const [price, setPrice] = useState<string>('-')
   useEffect(() => {
-    axios.get('http://18.136.101.231/api').then(res => {
+    axios.get('http://' + process.env.REACT_APP_SERVER_NAME + '/api').then(res => {
       // console.log("stock price: ", res.data)
       setPrice(res.data.data);
     })

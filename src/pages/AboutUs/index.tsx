@@ -56,22 +56,31 @@ export default function AboutUS() {
           {t('Operate on sound business principles and practices')}
         </p>
         <p className="text-dan-small">
+          {t("Measure and publicly report on our performance")}
+        </p>
+        <p className="text-dan-small">
           {t("Value our customer's trust and provide quality products and service")}
         </p>
       </div>
       <div>
         <h2 className="block-title" style={{opacity: 0, marginTop: "-30px"}}>-</h2>
         <p className="text-dan">
-          {t('Intergrity - We conduct business in a fair,honest and trustworthy manner')}
+          {t('Respect - Our workplace fosters openness,mutual respect and individual development')}
+        </p>
+        <p className="text-dan">
+          {t('Promote a fair, open, respectful and progressive workplace')}
         </p>
         <p className="text-dan-small">
-          {t('Do business in accordance with the guidelines provided by respective government authorities')}
+          {t('Support an innovative, high-performance culture')}
         </p>
         <p className="text-dan-small">
-          {t('Operate on sound business principles and practices')}
+          {t('Encourage employee development through continuous learning and professional growth')}
         </p>
         <p className="text-dan-small">
-          {t("Value our customer's trust and provide quality products and service")}
+          {t("Follow competitive compensation practices")}
+        </p>
+        <p className="text-dan-small">
+          {t("Attract and retain talented leaders and experts")}
         </p>
       </div>
       <div>
@@ -90,12 +99,7 @@ export default function AboutUS() {
         <p className="text-dan">
           {t('Mr. Yan Hao (Chief Executive Officer) 、Ms. Huang Lilan 、Mr. Li Hongbin 、Mr. Huang Yibin')}
         </p>
-        <h2 className="block-title">
-          {t('Non-Executive Directors')}
-        </h2>
-        <p className="text-dan">
-          {t('Ms. Zhang Jing (Chairman) 、Mr. Yang Xianfeng')}
-        </p>
+        <p></p>
         <h2 className="block-title">
           {t('Independent Non-Executive Directors')}
         </h2>
