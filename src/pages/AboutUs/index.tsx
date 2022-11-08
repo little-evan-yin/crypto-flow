@@ -3,6 +3,7 @@ import Banner1 from '../../assets/images/about-us/banner1.png'
 import Banner2 from '../../assets/images/about-us/banner2.png'
 import Banner3 from '../../assets/images/about-us/banner3.png'
 import Banner4 from '../../assets/images/about-us/banner4.png'
+import Banner5 from '../../assets/images/about-us/banner5.png'
 import {useTranslation} from "react-i18next";
 
 export default function AboutUS() {
@@ -122,7 +123,7 @@ export default function AboutUS() {
         </p>
       </div>
       <div>
-        <img src={Banner4} alt=""/>
+        <img src={Banner5} alt=""/>
       </div>
     </div>
   </AboutUsView>
