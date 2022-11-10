@@ -1,38 +1,54 @@
 [
   {
     "category": "Corporate Governance",
-    "data": "2019-04-10",
-    "title": "股东提名候选董事的程序",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/khj2in05r78cpyg4bews-20190410.pdf"
-  },
-  {
-    "category": "Corporate Governance",
-    "data": "2022-09-09",
-    "title": "董事名单与其角色和职能",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/2cpdmw1yx748q3k0z59g-20220909.pdf"
-  },
-  {
-    "category": "Corporate Governance",
-    "data": "2017-07-31",
-    "title": "提名委员会",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/controller3gtwiph46yn809zmae2jd-20170729.pdf"
-  },
-  {
-    "category": "Corporate Governance",
-    "data": "2017-07-31",
-    "title": "薪酬委员会",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/controller2yzsjg6wh9iqfd5pktre4-20170729.pdf"
-  },
-  {
-    "category": "Corporate Governance",
-    "data": "2021-03-30",
-    "title": "审核委员会",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/9is215xbgw6ycdka4te0-20210330.pdf"
+    "data": "2022-05-13",
+    "title": "组织章程大纲及章程细则",
+    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/wt9yqm4gchxnef6s0ib7-20220513.pdf",
+    "children": []
   },
   {
     "category": "Corporate Governance",
     "data": "2022-05-13",
-    "title": "组织章程大纲及章程细则",
-    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/wt9yqm4gchxnef6s0ib7-20220513.pdf"
+    "title": "董事委员会的职权范围",
+    "pdf_url": "",
+    "children": [
+      {
+        "category": "Corporate Governance",
+        "data": "2021-03-30",
+        "title": "审核委员会",
+        "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/9is215xbgw6ycdka4te0-20210330.pdf"
+      },
+      {
+        "category": "Corporate Governance",
+        "data": "2017-07-31",
+        "title": "薪酬委员会",
+        "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/controller2yzsjg6wh9iqfd5pktre4-20170729.pdf"
+      },
+      {
+        "category": "Corporate Governance",
+        "data": "2017-07-31",
+        "title": "提名委员会",
+        "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/controller3gtwiph46yn809zmae2jd-20170729.pdf"
+      }
+    ]
+  },
+  {
+    "category": "Corporate Governance",
+    "data": "2022-09-09",
+    "title": "董事的角色和职能",
+    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/2cpdmw1yx748q3k0z59g-20220909.pdf",
+    "children": []
+  },
+  {
+    "category": "Corporate Governance",
+    "data": "2019-04-10",
+    "title": "股东提名候选董事的程序",
+    "pdf_url": "http:\/\/www.lotoie.com\/Public\/file\/CN\/khj2in05r78cpyg4bews-20190410.pdf",
+    "children": []
   }
+  
+  
+  
+  
+
 ]

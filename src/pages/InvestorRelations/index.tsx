@@ -26,6 +26,11 @@ interface IData{
   data: string
   title: string
   pdf_url: string
+  children?: {
+    data: string
+    title: string
+    pdf_url: string
+  }[]
 }
 const pageSize = 10
 
@@ -230,20 +235,23 @@ export default function InvestorRelations() {
       <div className="block-table">
         {
           showCorporateGovernance.map((item, index) => (
-            <div className="block-table-item" key={index}>
-              <div>{item.data}</div>
-              <a href={filterUrl(item.pdf_url)} target="_blank">{item.title}</a>
-            </div>
-            /*<div className="block-table-item2" key={index}>
-              <div className="block-table-item2-line">{item.data}</div>
+            // <div className="block-table-item2" key={index}>
+            //   {/* <div>{item.data}</div> */}
+            //   <a href={filterUrl(item.pdf_url)} target="_blank">{item.title}</a>
+            // </div>
+            <div className="block-table-item2" key={index}>
+              {
+                item.pdf_url ?  <a href={item.pdf_url} className="block-table-item2-line">{item.title}</a> :
+                 <div className="block-table-item2-line">{item.title}</div>
+              }
               {
                 item.children.map((item2, index2) => (
-                  <div className="block-table-item2-line-c" key={index2}>
+                  <a href={item2.pdf_url} className="block-table-item2-line-c" key={index2}>
                     {item2.title}
-                  </div>
+                  </a>
                 ))
               }
-            </div>*/
+            </div>
           ))
         }
         {
@@ -259,14 +267,14 @@ export default function InvestorRelations() {
       <h2 className="block-title">{t('Documents on Display')}</h2>
       <div className="block-table">
         <div className="block-table-item block-table-title">
-          <div>{t('Date of Release')}</div>
+          {/* <div>{t('Date of Release')}</div> */}
           <div>{t('Document')}</div>
         </div>
         <div className="block-table-list">
           {
             showDocumentsOnDisplay.map((item, index) => (
-              <div className="block-table-item" key={index}>
-                <div>{item.data}</div>
+              <div className="block-table-item4" key={index}>
+                {/* <div>{item.data}</div> */}
                 <a href={filterUrl(item.pdf_url)} target="_blank">{item.title}</a>
               </div>
             ))

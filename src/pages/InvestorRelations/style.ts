@@ -97,6 +97,68 @@ export const InvestorRelationsView = styled.div`
         }
       }
     }
+
+    .block-table-item2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* padding: 10px 0; */
+      /* border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
+      ${THEME_MEDIA_ENUM.small} {
+        grid-template-columns: 1fr;
+        & > div:nth-child(2) {
+          margin-top: 8px;
+        }
+      }
+      & > div:nth-child(1) {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #1C2B33;
+      }
+
+      & > a {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #465A69;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .block-table-item4 {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      ${THEME_MEDIA_ENUM.small} {
+        grid-template-columns: 1fr;
+        & > div:nth-child(2) {
+          margin-top: 8px;
+        }
+      }
+      & > div:nth-child(1) {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #1C2B33;
+      }
+
+      & > a {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #465A69;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+
+
     .block-table-title {
       & > div {
         font-weight: 600!important;
@@ -126,6 +188,7 @@ export const InvestorRelationsView = styled.div`
         font-size: 14px;
         line-height: 20px;
         color: #465A69;
+        padding-top: 8px;
         padding-left: 10px;
       }
     }
